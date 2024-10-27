@@ -37,3 +37,6 @@ c) Podcastin väittämät olivat mielestäni osittain itsestäänselviä, mutta 
   6. Ohjelmistokehittäjät näkevät omat ohjelmistonsa aina merkittävästi riskialttiimpina, kuin muiden tekemät ohjelmistot.
       
        En ollut itse miettinyt kyseistä asiaa ikinä, mutta uskoisin sen olevan pitkälti totta. Olen ainakin itse huomannut, kuinka tietyt omat pienet ohjelmat tuntuvat huonosti koodatuilta sekä puutteellisilta, vaikka ne olisivatkin samalla tasolla muiden kanssa.
+
+d)
+ Ei ongelmia asennuksessa.
