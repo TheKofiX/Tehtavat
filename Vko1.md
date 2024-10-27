@@ -2,13 +2,13 @@
 a) 
         - 3.01 Hyökkäys: Yritys vahingoittaa, paljastaa, varastaa tai päästä luvattomaan tietoon käsiksi. Hyökkäys tai "attack" termi kuvaa hyvin itseään, ja piilottaa alleen suuren osan kyberhyökkäyksistä. Esimerkkejä näistä voisi olla esim hakkerin yritys murtautua tietojärjestelmään, tai esim. lähettää haittaohjelman, joka vaurioittaa asiakirjoja palvelimella.
     
-     - 3.31 Tietoturvapoikkeama: Poikkeammalla tarkoitetaan odottamatonta tietoturvatapahtumaa, joka mahdollisesti vaarantaa liiketoimintaa ja uhkaa tietoturvaa. Tietoturvapoikkeama saatettaisiin huomata tai pitää sisällään herkkäluontoisien tiedostojen availua ja latailua, tai esim. käyttäjätietojen käyttöä ulkomailta.
+     -        3.31 Tietoturvapoikkeama: Poikkeammalla tarkoitetaan odottamatonta tietoturvatapahtumaa, joka mahdollisesti vaarantaa liiketoimintaa ja uhkaa tietoturvaa. Tietoturvapoikkeama saatettaisiin huomata tai pitää sisällään herkkäluontoisien tiedostojen availua ja latailua, tai esim. käyttäjätietojen käyttöä ulkomailta.
     
-    - 3.56 Vaatimus: Vaatimus on tarve joka on esitetty, yleisesti ymmärretty tai pakollinen. Nämä saattavat olla esim. yleisiä käytäntöjä, tai kirjallisia vaatimuksia. Näitä olisivat esim. yrityksen edellytys monivaiheisesta tunnistuksesta tai esim. puhelinnumeroide salassapito.
+    -        3.56 Vaatimus: Vaatimus on tarve joka on esitetty, yleisesti ymmärretty tai pakollinen. Nämä saattavat olla esim. yleisiä käytäntöjä, tai kirjallisia vaatimuksia. Näitä olisivat esim. yrityksen edellytys monivaiheisesta tunnistuksesta tai esim. puhelinnumeroide salassapito.
 
-   -  3.58 Tarkastelu: Toimenpide, jossa selvitetään esim. tietoturvan riittävyys ja nykyaikaisuus, sekä varmistetaan jatkuva tietoturvatavoitteiden ylläpito. Saatetaan myös tarkastella mahdollisia uusia uhkia.
+- 3.58 Tarkastelu: Toimenpide, jossa selvitetään esim. tietoturvan riittävyys ja nykyaikaisuus, sekä varmistetaan jatkuva tietoturvatavoitteiden ylläpito. Saatetaan myös tarkastella mahdollisia uusia uhkia.
 
-   -  3.77 Haavoittuvuus: Heikkous tai puute, jota esim hakkerit voivat hyödyntää hyökkäyksissä. Näitä voisivat olla esim. vanhentuneet ohjelmistoversiot, huonot salasanat tai ihmisten liiat käyttöoikeudet.
+  -        3.77 Haavoittuvuus: Heikkous tai puute, jota esim hakkerit voivat hyödyntää hyökkäyksissä. Näitä voisivat olla esim. vanhentuneet ohjelmistoversiot, huonot salasanat tai ihmisten liiat käyttöoikeudet.
      
 b) ISO/IEC 27034 on kansainvälinen standardi, joka tarjoaa ohjeita sovellusturvallisuuden ja tietosuojan hallintaan organisaatioissa.
 
