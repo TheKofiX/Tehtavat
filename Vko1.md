@@ -1,5 +1,6 @@
 # Vko 1 Tehtävät
-a)   3.1 Hyökkäys: Yritys vahingoittaa, paljastaa, varastaa tai päästä luvattomaan tietoon käsiksi. Hyökkäys tai "attack" termi kuvaa hyvin itseään, ja piilottaa alleen suuren osan kyberhyökkäyksistä. Esimerkkejä näistä voisi olla esim hakkerin yritys murtautua tietojärjestelmään, tai esim. lähettää haittaohjelman, joka vaurioittaa asiakirjoja palvelimella.
+a)  
+        3.1 Hyökkäys: Yritys vahingoittaa, paljastaa, varastaa tai päästä luvattomaan tietoon käsiksi. Hyökkäys tai "attack" termi kuvaa hyvin itseään, ja piilottaa alleen suuren osan kyberhyökkäyksistä. Esimerkkejä näistä voisi olla esim hakkerin yritys murtautua tietojärjestelmään, tai esim. lähettää haittaohjelman, joka vaurioittaa asiakirjoja palvelimella.
     
      3.31 Tietoturvapoikkeama: Poikkeammalla tarkoitetaan odottamatonta tietoturvatapahtumaa, joka mahdollisesti vaarantaa liiketoimintaa ja uhkaa tietoturvaa. Tietoturvapoikkeama saatettaisiin huomata tai pitää sisällään herkkäluontoisien tiedostojen availua ja latailua, tai esim. käyttäjätietojen käyttöä ulkomailta.
     
