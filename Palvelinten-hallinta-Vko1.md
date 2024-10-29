@@ -53,4 +53,6 @@ Alla olevista kuvista huomaa kun komento "sudo salt '*' state.apply install_htop
 
 ### e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
 
+Testataan yheys samalla koneella käyttäen ping komentoa.
+
 <img src="https://i.imgur.com/Y0P9JHl.png" alt="Alternate image text" width="300"/>
