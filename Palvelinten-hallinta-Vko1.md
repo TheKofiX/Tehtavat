@@ -7,7 +7,7 @@
 ### b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
 
  - Alla olevista kuvista näkyy salt-minionin asennus komentoja sekä avaimen hyväksyminen.
- - 
+   
 <img src="https://i.imgur.com/eIQhszg.png" alt="Alternate image text" width="300"/>
 <img src="https://i.imgur.com/IzKOUb3.png" alt="Alternate image text" width="300"/>
 <img src="https://i.imgur.com/dxIIoM8.png" alt="Alternate image text" width="300"/>
