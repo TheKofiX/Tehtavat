@@ -12,7 +12,7 @@
 <img src="https://i.imgur.com/IzKOUb3.png" alt="Alternate image text" width="300"/>
 <img src="https://i.imgur.com/dxIIoM8.png" alt="Alternate image text" width="300"/>
 
-### c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
+### c) Viisi tärkeintä. pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
       -pkg mahdollistaa pakettien asentamisen, päivittämisen ja poistamisen. Esimerkki: (Varmistaa Vim asennuksen)
       vim:
       pkg.installed
@@ -32,7 +32,7 @@
        cmd.run:
        name: apt-get update && apt-get upgrade -y
 
-### d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
+### d) Idempotentti. Anna esimerkki idempotenssista. Analysoi tulokset, selitä miten idempotenssi ilmenee.
 
 Alla olevista kuvista huomaa kun komento "sudo salt '*' state.apply install_htop" Ajetaan ensimmäisen kerran tapahtuu muutos, mutta kun se ajetaan uudelleen ei muutosta tapahdu.
 
