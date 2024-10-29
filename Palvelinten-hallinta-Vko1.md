@@ -5,8 +5,10 @@
   - Ei ongelmia asennuksessa
 
 ### b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
+<img src="https://i.imgur.com/eIQhszg.png" alt="Alternate image text" width="300"/>
+<img src="https://i.imgur.com/IzKOUb3.png" alt="Alternate image text" width="300"/>
 
-  -
+<img src="https://i.imgur.com/dxIIoM8.png" alt="Alternate image text" width="300"/>
 
 ### c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
 
