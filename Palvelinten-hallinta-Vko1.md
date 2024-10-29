@@ -12,4 +12,5 @@ c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Salt
 
 d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
 <img src="https://i.imgur.com/2i7SmC9.png" alt="Alternate image text" width="300"/>
+<img src="https://i.imgur.com/u5CdbTp.png" alt="Alternate image text" width="300"/>
 e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
