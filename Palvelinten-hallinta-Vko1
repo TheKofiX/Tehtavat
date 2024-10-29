@@ -10,5 +10,5 @@ b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
 
 c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
 d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
- - ![Alternate image text](https://imgur.com/SqiHCW5.png) ![Alternate image text](https://imgur.com/2i7SmC9.png)
+ ![Alternate image text](https://imgur.com/SqiHCW5.png) ![Alternate image text](https://imgur.com/2i7SmC9.png)
 e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
