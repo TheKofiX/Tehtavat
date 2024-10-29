@@ -10,30 +10,5 @@ b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
 
 c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
 d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
-# Ajamalla komennon ensimmäisen kerran saat tulokseksi tämän. Kiinnitä huomio kohtaan (changed=1)
-Changes:
-----------
-          htop:
-              ----------
-              new:
-                  3.2.2-2
-              old:
-
-Summary for janne-virtualbox
-------------
-Succeeded: 1 (changed=1)
-Failed:    0
-------------
-Total states run:     1
-Total run time:   2.269 s
-
-# Ajamalla komennon toisen kerran muuttuu summary seuraavan laiseksi: 
-Summary for janne-virtualbox
-------------
-Succeeded: 1
-Failed:    0
-------------
-Total states run:     1
-Total run time:  43.600 ms
-janne@janne-virtualbox:~$
+![Alternate image text](https://i.imgur.com/2i7SmC9.png)
 e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
