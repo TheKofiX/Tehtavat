@@ -5,12 +5,32 @@
   - Ei ongelmia asennuksessa
 
 ### b) Asenna Salt (salt-minion) Linuxille (uuteen virtuaalikoneeseesi).
+
+ - Alla olevista kuvista näkyy salt-minionin asennus komentoja sekä avaimen hyväksyminen.
+ - 
 <img src="https://i.imgur.com/eIQhszg.png" alt="Alternate image text" width="300"/>
 <img src="https://i.imgur.com/IzKOUb3.png" alt="Alternate image text" width="300"/>
-
 <img src="https://i.imgur.com/dxIIoM8.png" alt="Alternate image text" width="300"/>
 
 ### c) Viisi tärkeintä. Näytä Linuxissa esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
+      -pkg mahdollistaa pakettien asentamisen, päivittämisen ja poistamisen. Esimerkki: (Varmistaa Vim asennuksen)
+      vim:
+      pkg.installed
+      
+      - file hallinnoi tiedostoja, sekä kansioita. Esimerkki: (Luo tiedoston)
+       /tmp/testfile.txt:
+       file.managed
+       
+      -Service mahdollistaa palveluiden käynnistämisen, pysäyttämisen ja niiden uudelleenkäynnistyksen. (Esimerkki varmistaa että ohjelma on käynnissä)
+      apache2:
+      service.running
+      
+      -user Hallinnoi käyttäjätilejä. Se mahdollistaa käyttäjien luonnin, poiston sekä muokkaamisen.
+      
+      -cmd suorittaa komentokehotetoimintoja. Esimerkki: suorittaa päivityksen
+      update-system:
+       cmd.run:
+       name: apt-get update && apt-get upgrade -y
 
 ### d) Idempotentti. Anna esimerkki idempotenssista. Aja 'salt-call --local' komentoja, analysoi tulokset, selitä miten idempotenssi ilmenee.
 
@@ -20,3 +40,5 @@ Alla olevista kuvista huomaa kun komento "sudo salt '*' state.apply install_htop
 <img src="https://i.imgur.com/u5CdbTp.png" alt="Alternate image text" width="300"/>
 
 ### e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
+
+<img src="https://i.imgur.com/Y0P9JHl.png" alt="Alternate image text" width="300"/>
