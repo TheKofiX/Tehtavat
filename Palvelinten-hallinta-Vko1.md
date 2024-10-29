@@ -1,5 +1,17 @@
- x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva. Ei siis vaadita pitkää eikä essee-muotoista tiivistelmää.)
+### x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva. Ei siis vaadita pitkää eikä essee-muotoista tiivistelmää.)
 
+      Raportin kirjoitus:
+      - Raportin avulla tulee voida toistaa kokeilu samanlaisessa ympäristössä.
+      - Älä sepitä, plagioi tai käytä kuvia luvatta.
+      - Muista lähteet, sekä ota huomioon hyvä luettavuus.
+
+      Salt komennot:
+      - Saltin avullla hallitaan monia koneita paikallisesti tai verkon yli.
+      - Tärkeimmät toiminnot on: pkg,file,service,user ja cmd
+
+      Salt quickstart: 
+      - Käydään läpi yleisiä komentoja ja tietoa masterin sekä minionin välillä.
+      
 ### a) Asenna Debian 12-Bookworm virtuaalikoneeseen. (Poikkeuksellisesti tätä alakohtaa ei tarvitse raportoida, jos siinä ei ole mitään ongelmia. Mutta jos on ongelmia, sitten täsmällinen raportti, jotta voidaan ratkoa niitä yhdessä.)
   
   - Ei ongelmia asennuksessa
