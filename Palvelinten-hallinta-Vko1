@@ -27,5 +27,13 @@ Failed:    0
 Total states run:     1
 Total run time:   2.269 s
 
+- Ajamalla komennon toisen kerran muuttuu summary seuraavan laiseksi: 
+Summary for janne-virtualbox
+------------
+Succeeded: 1
+Failed:    0
+------------
+Total states run:     1
+Total run time:  43.600 ms
 janne@janne-virtualbox:~$
 e) Herra-orja. Kokeile herra-orja arkkitehtuuria niin, että herra ja orja ovat samalla koneella.
