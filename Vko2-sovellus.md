@@ -42,6 +42,10 @@
   
  
 ### b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
+        Korjasin haavoittuvuuden muuttamalla kaksi koodi riviä. Tämä muutos tekee parametrin "pin" eikä arvoa näin yhdistetä suoraan SQL merkkijonoon vaan käsitellään datana. Muutin rivin:
+        *sql = "SELECT password FROM pins WHERE pin='" + pin + "';"*  Riviksi: *sql = text("SELECT password FROM pins WHERE pin=:pin")* Sekä rivin:
+        *res = db.session.execute(text(sql))* Riviksi: *res = db.session.execute(sql, {"pin": pin})* 
+        
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
