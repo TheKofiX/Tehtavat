@@ -1,4 +1,5 @@
 x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+
         OWASP: OWASP Top 10: A01 Broken Access Control
           - Broken Access Control eli "Rikkoutunut käyttöoikeuksien hallinta"
           - Tärkeää varmistaa että käyttäjät eivät pysty toimia oikeuksien ulkopuolella.
