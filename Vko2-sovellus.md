@@ -27,9 +27,11 @@ a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
     Vaihe 1. Ensimmäinen kysymykseni oli, mihin voin kirjoittaa SQL injectiota varten tarvittavan SQL lauseen. Annettu teksti kenttä oli vain numeroille, eikä URL kenttäkään antanut apua. 
     Tähän kysyin vinkkiä ChatGPT:ltä. Kysymykseni oli: "I have a field thats numbers only and a website address of 127.0.0.1:5000 can either of these be used to pass sql commands." Tähän sain neuvoksi "Bypass Frontend Validation" sekä html koodi snipetin sisältäen type="text".
     <img src="https://i.imgur.com/WaPt33W.png" alt="Alternate image text" width="300"/>
+    
     Ymmärsin tämän jälkeen, että pystyn käyttämään Inspect Element(f12) Toimintoa muuttamaan tekstikentän tyypin "text" pohjaksi.
     Vaihe 2.Tämän jälkeen pääsin syöttämään SQL komennon  "123 UNION SELECT pin FROM pins -- ", joka antoi sivulle tekstin "Your password is 11112222333" 
     <img src="https://i.imgur.com/p5PTXMt.png" alt="Alternate image text" width="300"/>
+    
     Vaihe 3.Tämän pinin syötettyä sai näkyviin tehtävän vastauksen.
     <img src="https://i.imgur.com/kHjPLuy.png" alt="Alternate image text" width="300"/>
   
