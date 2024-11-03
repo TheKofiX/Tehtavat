@@ -46,7 +46,7 @@
         *sql = "SELECT password FROM pins WHERE pin='" + pin + "';"*  Riviksi: *sql = text("SELECT password FROM pins WHERE pin=:pin")* Sekä rivin:
         *res = db.session.execute(text(sql))* Riviksi: *res = db.session.execute(sql, {"pin": pin})* 
         
-        Vaikka koodin nyt ajaa, ei saa adminin pin koodia vaan tulee (password not found).
+        Vaikka koodin nyt ajaa, ei saa adminin pin koodia vaan tulee (not found).
         
  <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="300"/>
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
