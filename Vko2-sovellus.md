@@ -49,6 +49,12 @@
         Vaikka koodin nyt ajaa, ei saa adminin pin koodia vaan tulee (not found).
         
  <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="300"/>
+ 
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
+        Asensin ja ajoin dirfuzt-0, mutta en saanut ratkaistua kunnolla/ymmärtänyt dirfuzt-1.
+        
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
+        En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
+        
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
+        En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
