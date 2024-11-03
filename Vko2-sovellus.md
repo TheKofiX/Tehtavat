@@ -1,4 +1,4 @@
-x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
+### x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 
         OWASP: OWASP Top 10: A01 Broken Access Control
           - Broken Access Control eli "Rikkoutunut käyttöoikeuksien hallinta"
@@ -22,8 +22,10 @@ x) Lue/katso/kuuntele ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä te
           - Tee tekstistä helppo lukuista.
           - Ole täsmällinen sekä tee raporteista toistettavia, jotta muut oppilaat pystyvät ratkaisemaan.
           
-a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
+### a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
+
     Murtautumisessa käytin tehtävään vinkkejä sekä kysyin ChatGPT:ltä neuvoa.
+    
     Vaihe 1. Ensimmäinen kysymykseni oli, mihin voin kirjoittaa SQL injectiota varten tarvittavan SQL lauseen. Annettu teksti kenttä oli vain numeroille, eikä URL kenttäkään antanut apua. 
     Tähän kysyin vinkkiä ChatGPT:ltä. Kysymykseni oli: "I have a field thats numbers only and a website address of 127.0.0.1:5000 can either of these be used to pass sql commands." Tähän         sain neuvoksi "Bypass Frontend Validation" sekä html koodi snipetin sisältäen type="text".
     
@@ -39,7 +41,7 @@ a) Murtaudu 010-staff-only. Ks. Karvinen 2024: Hack'n Fix
 <img src="https://i.imgur.com/kHjPLuy.png" alt="Alternate image text" width="300"/>
   
  
-b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
-c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
-d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
-e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
+### b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
+### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
+### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
+### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
