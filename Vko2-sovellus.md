@@ -62,7 +62,16 @@
         Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
 <img src="https://i.imgur.com/4Gc2xPN.png" alt="Alternate image text" width="400"/>
 <img src="https://i.imgur.com/kcpA1sw.png" alt="Alternate image text" width="400"/>
+        Jäin kuitenkin pitkäksi ajaksi jumiin päästyäni kyseiselle sivulle, ja jouduin turvautumaan vinkkeihin hack n fixin sivuilta. 
+        Ymmärsin saman tien luettuani vinkin "Did you try as logged-in user, too?", että sivulle täytyy tehdä itse käyttäjä.
+        Käyttäjän luonnin jälkeen ffuffin avulla löytynyt sivu näkyikin jo.
 <img src="https://i.imgur.com/F6yyNLS.png" alt="Alternate image text" width="400"/>
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
-        En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
-<img src="" alt="Alternate image text" width="400"/>
+        Tehtävän korjaus, tuntui ongelman ymmärrettyäni melko helpolta.
+        Olin aiemmin katsoessani vinkkejä nähnyt jo views.py tiedoston joka löytyi hats kansion alta.
+        Tiedostoa läpikäydessä huomasin, ettei viimeiseen funkitoon oltu lisätty kohtaa, joka tarkistaa oikeudet, vaikka ylemmässä funktiossa se löytyikin.
+<img src="https://i.imgur.com/oUXRtSK.png" alt="Alternate image text" width="400"/>
+        Lisäsin komennon alimpaan funktioon.
+<img src="https://i.imgur.com/jjUGFBE.png" alt="Alternate image text" width="400"/>
+        Koodin varmistuksen jälkeen ei kyseiselle admin-console sivulle enää pääse.
+<img src="https://i.imgur.com/WR46JYt.png" alt="Alternate image text" width="400"/>
