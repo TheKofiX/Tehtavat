@@ -27,6 +27,7 @@
 ### g) Tee sls-tiedosto, joka käyttää vähintään kahta eri tilafunktiota näistä: package, file, service, user. Tarkista eri ohjelmalla, että lopputulos on oikea. Osoita useammalla ajolla, että sls-tiedostosi on idempotentti.
   <img src="https://i.imgur.com/RVzLZx0.png" alt="Alternate image text" width="300"/>
    <img src="https://i.imgur.com/JUG7kPv.png" alt="Alternate image text" width="300"/>
+   
 ### h) Top file. Automatisoi vähintään kahden tilan / modulin ajaminen. Esim. komento 'sudo salt "*" state.apply' tai 'sudo salt-call --local state.apply' ajaa modulit "hello" ja "apache".
   <img src="https://i.imgur.com/fvVl1vN.png" alt="Alternate image text" width="300"/>
   <img src="https://i.imgur.com/JqExShc.png" alt="Alternate image text" width="300"/>
