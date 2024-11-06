@@ -29,16 +29,16 @@
     Vaihe 1. Ensimmäinen kysymykseni oli, mihin voin kirjoittaa SQL injectiota varten tarvittavan SQL lauseen. Annettu teksti kenttä oli vain numeroille, eikä URL kenttäkään antanut apua. 
     Tähän kysyin vinkkiä ChatGPT:ltä. Kysymykseni oli: "I have a field thats numbers only and a website address of 127.0.0.1:5000 can either of these be used to pass sql commands." Tähän         sain neuvoksi "Bypass Frontend Validation" sekä html koodi snipetin sisältäen type="text".
     
-<img src="https://i.imgur.com/WaPt33W.png" alt="Alternate image text" width="300"/>
+<img src="https://i.imgur.com/WaPt33W.png" alt="Alternate image text" width="400"/>
     
     Ymmärsin tämän jälkeen, että pystyn käyttämään Inspect Element(f12) Toimintoa muuttamaan tekstikentän tyypin "text" pohjaksi.
     Vaihe 2.Tämän jälkeen pääsin syöttämään SQL komennon  "123 UNION SELECT pin FROM pins -- ", joka antoi sivulle tekstin "Your password is 11112222333" 
 
-<img src="https://i.imgur.com/p5PTXMt.png" alt="Alternate image text" width="300"/>
+<img src="https://i.imgur.com/p5PTXMt.png" alt="Alternate image text" width="400"/>
     
     Vaihe 3.Tämän pinin syötettyä sai näkyviin tehtävän vastauksen.
     
-<img src="https://i.imgur.com/kHjPLuy.png" alt="Alternate image text" width="300"/>
+<img src="https://i.imgur.com/kHjPLuy.png" alt="Alternate image text" width="400"/>
   
  
 ### b) Korjaa 010-staff-only haavoittuvuus lähdekoodista. Osoita testillä, että ratkaisusi toimii.
@@ -48,13 +48,16 @@
         
         Vaikka koodin nyt ajaa, ei saa adminin pin koodia vaan tulee (not found).
         
- <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="300"/>
+ <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="400"/>
  
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
-        Asensin ja ajoin dirfuzt-0, mutta en saanut ratkaistua kunnolla/ymmärtänyt dirfuzt-1.
-        
+        dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0. Ajoimme alkuun fuzzer            ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
+        Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
+<img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
+        <img src="" alt="Alternate image text" width="400"/>
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
         En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
-        
+<img src="" alt="Alternate image text" width="300"/>
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
         En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
+<img src="" alt="Alternate image text" width="300"/>
