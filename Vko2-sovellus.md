@@ -27,7 +27,7 @@
     Murtautumisessa käytin tehtävään vinkkejä sekä kysyin ChatGPT:ltä neuvoa.
     
     Vaihe 1. Ensimmäinen kysymykseni oli, mihin voin kirjoittaa SQL injectiota varten tarvittavan SQL lauseen. Annettu teksti kenttä oli vain numeroille, eikä URL kenttäkään antanut apua. 
-    Tähän kysyin vinkkiä ChatGPT:ltä. Kysymykseni oli: "I have a field thats numbers only and a website address of 127.0.0.1:5000 can either of these be used to pass sql commands." Tähän         sain neuvoksi "Bypass Frontend Validation" sekä html koodi snipetin sisältäen type="text".
+    Tähän kysyin vinkkiä ChatGPT:ltä. Kysymykseni oli: "I have a field thats numbers only and a website address of 127.0.0.1:5000 can either of these be used to pass sql commands." Tähän sain neuvoksi "Bypass Frontend Validation" sekä html koodi snipetin sisältäen type="text".
     
 <img src="https://i.imgur.com/WaPt33W.png" alt="Alternate image text" width="400"/>
     
@@ -51,8 +51,8 @@
  <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="400"/>
  
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
-        dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0. Ajoimme alkuun fuzzer            ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
-        Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
+        dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0. Ajoimme alkuun fuzzer ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
+Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
 <img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
         <img src="" alt="Alternate image text" width="400"/>
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
