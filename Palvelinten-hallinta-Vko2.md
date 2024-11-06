@@ -1,18 +1,32 @@
 ## h2 Infra-as-code:
 ### x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva. Ei siis vaadita pitkää eikä essee-muotoista tiivistelmää.)
-    Karvinen 2023: Run Salt Command Locally
 
+Karvinen 2021: Two Machine Virtual Network With Debian 11 Bullseye and Vagrant (Huomaa: nykyinen Debian stable on 12-Bookworm, Vagrantissa "debian/bookworm64". Vanhentunutta 11-bullseye:ta ei enää käytetä)
+    - Pitää sisällään ohjeet vagrantiin nopeean asennukseen linuxilla.
+    - Opettaa scriptin luomista, jonka avulla voidaan asentaa 2, tai useampi virtuaalikone kerralla.
     
-    Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux
-    Karvinen 2006: Raportin kirjoittaminen
-    Saltin asennus edellyttää nykyään (Debian 12 Bookworm) uuden pakettivaraston asentamista, mitä ei käsitellä näissä artikkelissa. Ohjeet pakettivaraston asentamiseen vinkeissä alla.
+Karvinen 2018: Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux (Huomaa: Nykyisin ennen Saltin asentamista on asennettava ensin varasto [package repository], ohje h1 vinkeissä)
+    - Saltin asennus ohje.
+    - Minionin ja masterin yhdistys.
+    
+Karvinen 2014: Hello Salt Infra-as-Code (Huomaa: kannattaa laittaa jokainen moduli omaan kansioonsa toisin kuin artikkelissani. Hyvä: "/srv/salt/hello/init.sls" eli moduli "hello" siististi omana kansionaan. Huono: "/srv/salt/hups.sls" eli sls-tiedostot ja kaikki niihin liittyvät muotit hujan hajan saltin pääkansiossa)
+    - Mielestäni tärkein tämän viikon materiaaleista, käy läpi moduulien käyttöä.
+    
+Karvinen 2023: Salt Vagrant - automatically provision one master and two slaves, vain kohdat
+Infra as Code - Your wishes as a text file
+top.sls - What Slave Runs What States
+Salt contributors: Salt overview, kohdat
+Rules of YAML
+YAML simple structure
+Lists and dictionaries - YAML block structures
+    
 ### a) Hello Vagrant! Osoita jollain komennolla, että Vagrant on asennettu (esim tulostaa vagrantin versionumeron). Jos et ole vielä asentanut niitä, raportoi myös Vagrant ja VirtualBox asennukset. (Jos Vagrant ja VirtualBox on jo asennettu, niiden asennusta ei tarvitse tehdä eikä raportoida uudelleen.)
     Virtualbox oli jo asennettuna, mutta vagrant piti vielä asentaa. 
     Sen asennus toimi kuten muutkin Windows ohjelmat, lataamalla .exe tiedoston ja ajamalla sen.
   <img src="https://i.imgur.com/5zX8hrN.png" alt="Alternate image text" width="400"/>
 
 ### b) Linux Vagrant. Tee Vagrantilla uusi Linux-virtuaalikone.
-    Vagrant Linux-virtuaalikone asennettiin komennoilla    
+    Vagrant Linux-virtuaalikone asennettiin komennoilla:    
     *$ vagrant init debian/bookworm64
      $ vagrant up*
      Joiden jälkeen alla olevan kuvan tapaisesti vagrant ssh sai yhteyden koneeseen.
