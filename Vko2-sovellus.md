@@ -64,9 +64,11 @@
         Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
 <img src="https://i.imgur.com/4Gc2xPN.png" alt="Alternate image text" width="400"/>
 <img src="https://i.imgur.com/kcpA1sw.png" alt="Alternate image text" width="400"/>
+
         Jäin kuitenkin pitkäksi ajaksi jumiin päästyäni kyseiselle sivulle, ja jouduin turvautumaan vinkkeihin hack n fixin sivuilta. 
         Ymmärsin saman tien luettuani vinkin "Did you try as logged-in user, too?", että sivulle täytyy tehdä itse käyttäjä.
         Käyttäjän luonnin jälkeen ffuffin avulla löytynyt sivu näkyikin jo.
+        
 <img src="https://i.imgur.com/F6yyNLS.png" alt="Alternate image text" width="400"/>
 
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
