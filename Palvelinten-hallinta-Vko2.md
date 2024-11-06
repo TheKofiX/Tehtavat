@@ -48,9 +48,28 @@
   <img src="https://i.imgur.com/tjTR6SS.png" alt="Alternate image text" width="400"/>
 
 ### g) Tee sls-tiedosto, joka käyttää vähintään kahta eri tilafunktiota näistä: package, file, service, user. Tarkista eri ohjelmalla, että lopputulos on oikea. Osoita useammalla ajolla, että sls-tiedostosi on idempotentti.
+    Tein uuden sls tiedoston osoitteeseen srv/salt/komennot/init.sls jonka sisällä:
+        htop:
+          pkg.installed
+        
+        /tmp/testi2.txt:
+          file.managed:
+            - contents: "Testaa monen komennon käyttöä."
+        
+        cron:
+          service.running
+
+    Kyseinen tiedosto asentaa htop paketin, luo testi.txt tiedoston, sekä varmistaa, että "cron" on käynnissä.
+    Kuvassa 1 sls tiedosto ajetaan ensimmäisen kerran, ja luo txt tiedoston sekä asentaa htop paketin(cron on jo käynnissä).
   <img src="https://i.imgur.com/RVzLZx0.png" alt="Alternate image text" width="400"/>
-   <img src="https://i.imgur.com/JUG7kPv.png" alt="Alternate image text" width="300"/>
+    Kuvassa 2 tiedosto ajetaan toisen kerran, eikä muutoksia tule(idempotentti).
+   <img src="https://i.imgur.com/JUG7kPv.png" alt="Alternate image text" width="400"/>
+   Kuvassa 3 varmistamme vielä, että toiminnot ovat varmasti menneet läpi.
+   <img src="https://i.imgur.com/US6Kgy9.png" alt="Alternate image text" width="400"/>
    
 ### h) Top file. Automatisoi vähintään kahden tilan / modulin ajaminen. Esim. komento 'sudo salt "*" state.apply' tai 'sudo salt-call --local state.apply' ajaa modulit "hello" ja "apache".
+    Top sls luominen osoitteeseen /srv/salt/top.sls.
+    Ensimmäinen kuva näyttää .sls tiedoston sisällön.
   <img src="https://i.imgur.com/fvVl1vN.png" alt="Alternate image text" width="300"/>
+    Kuvassa 2. ajamme top.filen, mutta koska modulit ovat jo ajettu kerran aiemmissa kohdissa ei muutoksia tapahdu.
   <img src="https://i.imgur.com/JqExShc.png" alt="Alternate image text" width="300"/>
