@@ -76,9 +76,13 @@
         Olin aiemmin katsoessani vinkkejä nähnyt jo views.py tiedoston joka löytyi hats kansion alta.
         Tiedostoa läpikäydessä huomasin, ettei viimeiseen funktioon oltu lisätty kohtaa, joka tarkistaa oikeudet, vaikka ylemmässä funktiossa se löytyikin.
 <img src="https://i.imgur.com/oUXRtSK.png" alt="Alternate image text" width="400"/>
+
         Lisäsin komennon alimpaan funktioon.
+        
 <img src="https://i.imgur.com/jjUGFBE.png" alt="Alternate image text" width="400"/>
+
         Koodin varmistuksen jälkeen ei kyseiselle admin-console sivulle enää pääse.
+        
 <img src="https://i.imgur.com/WR46JYt.png" alt="Alternate image text" width="400"/>
 
 ### Lähteet/vinkit
