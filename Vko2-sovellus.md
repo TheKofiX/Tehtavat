@@ -59,8 +59,8 @@
         
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
 
-        Tehtävä 020 vaikutti alkuun vaikealta, sillä yritin tehdä sitä alkuun ennen dirfuzt tehtävän ratkaisua.
-        Menin kuitenkin tämän jälkeen katsomaan dirfuzt tehtävää. 
+        Tehtävä 020 vaikutti alkuun vaikealta, sillä yritin tehdä sitä ennen dirfuzt tehtävän ratkaisua.
+        Menin kuitenkin tämän jumiutumisen jälkeen katsomaan dirfuzt tehtävää. 
         Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
 <img src="https://i.imgur.com/4Gc2xPN.png" alt="Alternate image text" width="400"/>
 <img src="https://i.imgur.com/kcpA1sw.png" alt="Alternate image text" width="400"/>
