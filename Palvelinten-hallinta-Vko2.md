@@ -7,7 +7,8 @@
     Karvinen 2006: Raportin kirjoittaminen
     Saltin asennus edellyttää nykyään (Debian 12 Bookworm) uuden pakettivaraston asentamista, mitä ei käsitellä näissä artikkelissa. Ohjeet pakettivaraston asentamiseen vinkeissä alla.
 ### a) Hello Vagrant! Osoita jollain komennolla, että Vagrant on asennettu (esim tulostaa vagrantin versionumeron). Jos et ole vielä asentanut niitä, raportoi myös Vagrant ja VirtualBox asennukset. (Jos Vagrant ja VirtualBox on jo asennettu, niiden asennusta ei tarvitse tehdä eikä raportoida uudelleen.)
-  <img src="blob:https://imgur.com/171d7e8a-e0df-4314-b6e8-d604413cd135" alt="Alternate image text" width="300"/>
+
+  <img src="https://i.imgur.com/5zX8hrN.png" alt="Alternate image text" width="300"/>
 
 ### b) Linux Vagrant. Tee Vagrantilla uusi Linux-virtuaalikone.
   <img src="https://i.imgur.com/aepesNJ.png" alt="Alternate image text" width="300"/>
