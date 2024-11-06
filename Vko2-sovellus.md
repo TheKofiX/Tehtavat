@@ -74,7 +74,7 @@
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
         Tehtävän korjaus, tuntui ongelman ymmärrettyäni melko helpolta.
         Olin aiemmin katsoessani vinkkejä nähnyt jo views.py tiedoston joka löytyi hats kansion alta.
-        Tiedostoa läpikäydessä huomasin, ettei viimeiseen funkitoon oltu lisätty kohtaa, joka tarkistaa oikeudet, vaikka ylemmässä funktiossa se löytyikin.
+        Tiedostoa läpikäydessä huomasin, ettei viimeiseen funktioon oltu lisätty kohtaa, joka tarkistaa oikeudet, vaikka ylemmässä funktiossa se löytyikin.
 <img src="https://i.imgur.com/oUXRtSK.png" alt="Alternate image text" width="400"/>
         Lisäsin komennon alimpaan funktioon.
 <img src="https://i.imgur.com/jjUGFBE.png" alt="Alternate image text" width="400"/>
