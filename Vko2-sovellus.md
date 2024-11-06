@@ -57,6 +57,7 @@
 <img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
         <img src="https://i.imgur.com/Gy9jcGx.png" alt="Alternate image text" width="400"/>
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
+
         Tehtävä 020 vaikutti alkuun vaikealta, sillä yritin tehdä sitä alkuun ennen dirfuzt tehtävän ratkaisua.
         Menin kuitenkin tämän jälkeen katsomaan dirfuzt tehtävää. 
         Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
@@ -66,6 +67,7 @@
         Ymmärsin saman tien luettuani vinkin "Did you try as logged-in user, too?", että sivulle täytyy tehdä itse käyttäjä.
         Käyttäjän luonnin jälkeen ffuffin avulla löytynyt sivu näkyikin jo.
 <img src="https://i.imgur.com/F6yyNLS.png" alt="Alternate image text" width="400"/>
+
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
         Tehtävän korjaus, tuntui ongelman ymmärrettyäni melko helpolta.
         Olin aiemmin katsoessani vinkkejä nähnyt jo views.py tiedoston joka löytyi hats kansion alta.
