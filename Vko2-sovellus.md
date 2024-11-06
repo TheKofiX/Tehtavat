@@ -51,10 +51,11 @@
  <img src="https://i.imgur.com/MzEDrWT.png" alt="Alternate image text" width="400"/>
  
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
-        dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0. Ajoimme alkuun fuzzer ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
-Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
+        dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0.
+        Ajoimme alkuun fuzzer ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
+        Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
 <img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
-        <img src="" alt="Alternate image text" width="400"/>
+        <img src="https://i.imgur.com/Gy9jcGx.png" alt="Alternate image text" width="400"/>
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
         En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
 <img src="" alt="Alternate image text" width="300"/>
