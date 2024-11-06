@@ -56,6 +56,7 @@
         Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin oli selvästi se jota kaivattiin.
 <img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
         <img src="https://i.imgur.com/Gy9jcGx.png" alt="Alternate image text" width="400"/>
+        
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
 
         Tehtävä 020 vaikutti alkuun vaikealta, sillä yritin tehdä sitä alkuun ennen dirfuzt tehtävän ratkaisua.
