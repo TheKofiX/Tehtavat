@@ -61,8 +61,8 @@
         Menin kuitenkin tämän jälkeen katsomaan dirfuzt tehtävää. 
         Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
 <img src="https://i.imgur.com/4Gc2xPN.png" alt="Alternate image text" width="400"/>
-<img src="" alt="Alternate image text" width="400"/>
-<img src="" alt="Alternate image text" width="400"/>
+<img src="https://i.imgur.com/kcpA1sw.png" alt="Alternate image text" width="400"/>
+<img src="https://i.imgur.com/F6yyNLS.png" alt="Alternate image text" width="400"/>
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
         En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
 <img src="" alt="Alternate image text" width="400"/>
