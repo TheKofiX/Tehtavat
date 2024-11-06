@@ -53,12 +53,16 @@
 ### c) Ratkaise dirfuzt-1 artikkelista Karvinen 2023: Find Hidden Web Directories - Fuzz URLs with ffuf. Tämä auttaa 020-your-eyes-only ratkaisemisessa.
         dirfuzt-1 ratkaisu käytti täysin samaa perjaatetta kuin dirfutz-0.
         Ajoimme alkuun fuzzer ohjelman, jonka jälkeen suodatimme turhia tuloksia ulos. 
-        Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin. Oli ilmiselvästi se jota kaivattiin.
+        Alla olevan kuvan komennon pohjalta, vaihtoehtoja jäi ainoastaan muutamia, joista wp-admin oli selvästi se jota kaivattiin.
 <img src="https://i.imgur.com/MpihIBi.png" alt="Alternate image text" width="400"/>
         <img src="https://i.imgur.com/Gy9jcGx.png" alt="Alternate image text" width="400"/>
 ### d) Murtaudu 020-your-eyes-only. Ks. Karvinen 2024: Hack'n Fix
-        En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
-<img src="" alt="Alternate image text" width="300"/>
+        Tehtävä 020 vaikutti alkuun vaikealta, sillä yritin tehdä sitä alkuun ennen dirfuzt tehtävän ratkaisua.
+        Menin kuitenkin tämän jälkeen katsomaan dirfuzt tehtävää. 
+        Tämän avulla ajoin ffuffin aiempien ohjeiden mukaisesti, josta löytyi manuaalisesti katsomalla admin-console sivusta.
+<img src="https://i.imgur.com/4Gc2xPN.png" alt="Alternate image text" width="400"/>
+<img src="" alt="Alternate image text" width="400"/>
+<img src="" alt="Alternate image text" width="400"/>
 ### e) Korjaa 020-your-eyes-only haavoittuvuus. Osoita testillä, että ratkaisusi toimii.
         En ehtinyt opetella/osannut tehtävää palautukseen mennessä.
-<img src="" alt="Alternate image text" width="300"/>
+<img src="" alt="Alternate image text" width="400"/>
