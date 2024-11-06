@@ -7,24 +7,34 @@
     Karvinen 2006: Raportin kirjoittaminen
     Saltin asennus edellyttää nykyään (Debian 12 Bookworm) uuden pakettivaraston asentamista, mitä ei käsitellä näissä artikkelissa. Ohjeet pakettivaraston asentamiseen vinkeissä alla.
 ### a) Hello Vagrant! Osoita jollain komennolla, että Vagrant on asennettu (esim tulostaa vagrantin versionumeron). Jos et ole vielä asentanut niitä, raportoi myös Vagrant ja VirtualBox asennukset. (Jos Vagrant ja VirtualBox on jo asennettu, niiden asennusta ei tarvitse tehdä eikä raportoida uudelleen.)
-    Virtualbox oli jo asennettuna, mutta vagrant piti vielä asentaa. Sen asennus toimi kuten muutkin Windows ohjelmat, lataamalla .exe tiedoston ja ajamalla sen.
+    Virtualbox oli jo asennettuna, mutta vagrant piti vielä asentaa. 
+    Sen asennus toimi kuten muutkin Windows ohjelmat, lataamalla .exe tiedoston ja ajamalla sen.
   <img src="https://i.imgur.com/5zX8hrN.png" alt="Alternate image text" width="400"/>
 
 ### b) Linux Vagrant. Tee Vagrantilla uusi Linux-virtuaalikone.
-    Vagrant asennettiin komennoilla    
+    Vagrant Linux-virtuaalikone asennettiin komennoilla    
     *$ vagrant init debian/bookworm64
      $ vagrant up*
      Joiden jälkeen alla olevan kuvan tapaisesti vagrant ssh sai yhteyden koneeseen.
+     Kuvasta näkyy myös *ls_release -a* komento joka osoittaa kyseisen linux asennuksen.
                             
   <img src="https://i.imgur.com/aepesNJ.png" alt="Alternate image text" width="400"/>
 
 ### c) Kaksin kaunihimpi. Tee kahden Linux-tietokoneen verkko Vagrantilla. Osoita, että koneet voivat pingata toisiaan.
+     Kuten alla olevasta kuvasta huomaa, pystymme pingaamaan toisen vagrant koneen IP-osoitteeseen.
+     Olin tässä vaiheessa asentanut myös jo saltin, jonka vuoksi sen pingaus on mukana.
   <img src="https://i.imgur.com/a68avhq.png" alt="Alternate image text" width="400"/>
 
 ### d) Herra-orja verkossa. Demonstroi Salt herra-orja arkkitehtuurin toimintaa kahden Linux-koneen verkossa, jonka teit Vagrantilla. Asenna toiselle koneelle salt-master, toiselle salt-minion. Laita orjan /etc/salt/minion -tiedostoon masterin osoite. Hyväksy avain ja osoita, että herra voi komentaa orjakonetta.
-  <img src="" alt="Alternate image text" width="400"/>
+      Kuten yllä olevan kohdan c) kuvasta huomaa pystyy minion kone vastaamaan master koneen pingi pyyntöön.
 
 ### e) Hei infrakoodi! Kokeile paikallisesti (esim 'sudo salt-call --local') infraa koodina. Kirjota sls-tiedosto, joka tekee esimerkkitiedoston /tmp/ -kansioon.
+        srv/salt/hello/init.sls tiedosto pitää sisällään:
+        /tmp/testi.txt:
+          file.managed:
+            - contents: "Testitiedosto slsn käytöstä."
+        Ensimmäisessä kuvassa kyseinen sls tiedosto ajetaan enimmäisen kerran.
+        Seuraavasta kuvasta ilmenee, että testi.txt tiedosto luotiin onnistuneesti.
   <img src="https://i.imgur.com/IaY15ur.png" alt="Alternate image text" width="400"/>
   <img src="https://i.imgur.com/1NXagcG.png" alt="Alternate image text" width="400"/>
 ### f) Aja esimerkki sls-tiedostosi verkon yli orjalla.
