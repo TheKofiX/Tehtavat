@@ -75,3 +75,7 @@
 <img src="https://i.imgur.com/jjUGFBE.png" alt="Alternate image text" width="400"/>
         Koodin varmistuksen jälkeen ei kyseiselle admin-console sivulle enää pääse.
 <img src="https://i.imgur.com/WR46JYt.png" alt="Alternate image text" width="400"/>
+
+### Lähteet/vinkit
+        https://terokarvinen.com/2023/fuzz-urls-find-hidden-directories/
+        https://terokarvinen.com/hack-n-fix/
