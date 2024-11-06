@@ -27,6 +27,7 @@
 
 ### d) Herra-orja verkossa. Demonstroi Salt herra-orja arkkitehtuurin toimintaa kahden Linux-koneen verkossa, jonka teit Vagrantilla. Asenna toiselle koneelle salt-master, toiselle salt-minion. Laita orjan /etc/salt/minion -tiedostoon masterin osoite. Hyväksy avain ja osoita, että herra voi komentaa orjakonetta.
       Kuten yllä olevan kohdan c) kuvasta huomaa pystyy minion kone vastaamaan master koneen pingi pyyntöön.
+      Komento: sudo salt '*' test.ping
 
 ### e) Hei infrakoodi! Kokeile paikallisesti (esim 'sudo salt-call --local') infraa koodina. Kirjota sls-tiedosto, joka tekee esimerkkitiedoston /tmp/ -kansioon.
         srv/salt/hello/init.sls tiedosto pitää sisällään:
@@ -34,10 +35,16 @@
           file.managed:
             - contents: "Testitiedosto slsn käytöstä."
         Ensimmäisessä kuvassa kyseinen sls tiedosto ajetaan enimmäisen kerran.
-        Seuraavasta kuvasta ilmenee, että testi.txt tiedosto luotiin onnistuneesti.
+        Kuvasta 2.ilmenee, että testi.txt tiedosto luotiin onnistuneesti.
   <img src="https://i.imgur.com/IaY15ur.png" alt="Alternate image text" width="400"/>
+      Kuva 2
   <img src="https://i.imgur.com/1NXagcG.png" alt="Alternate image text" width="400"/>
+  
 ### f) Aja esimerkki sls-tiedostosi verkon yli orjalla.
+    Alla olevan kuvan mukaisesti ajettiin sls tiedosto komennolla:
+    $ sudo salt 'minion' state.apply hello
+    Jonka jälkeen varmistettiin tiedoston luonti/olemassa olo komennolla:
+    $ sudo salt 'minion' cmd.run 'cat /tmp/testi.txt'
   <img src="https://i.imgur.com/tjTR6SS.png" alt="Alternate image text" width="400"/>
 
 ### g) Tee sls-tiedosto, joka käyttää vähintään kahta eri tilafunktiota näistä: package, file, service, user. Tarkista eri ohjelmalla, että lopputulos on oikea. Osoita useammalla ajolla, että sls-tiedostosi on idempotentti.
