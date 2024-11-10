@@ -6,9 +6,10 @@
 <img src="https://i.imgur.com/FEQRO1p.png" alt="Alternate image text" width="400"/>
 
 ### b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
-<img src="" alt="Alternate image text" width="400"/>
+
 <img src="https://i.imgur.com/UBw900c.png" alt="Alternate image text" width="400"/>
 <img src="https://i.imgur.com/wI9eXK4.png" alt="Alternate image text" width="400"/>
+<img src="https://i.imgur.com/DJbtuBT.png" alt="Alternate image text" width="400"/>
 
 ### c) Packd. Aja 'packd' paketista ezbin-challenges.zip. Mikä on salasana? Mikä on lippu? (Tämä tehtävä on hieman haastavampi. Kirjaa ylös kokeilemasi lähestymistavat ja keksimäsi hypoteesit. 
 <img src="https://i.imgur.com/DjO0pb9.png" alt="Alternate image text" width="400"/>
