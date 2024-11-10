@@ -7,11 +7,13 @@
 - Ensimmäinen kokeilemani komento oli strings | grep -i "password", joka palautti sattumalta tehtävän lipun, huomasin kuitenkin että tämä ei ollut pyydetty   salasana.
 <img src="https://i.imgur.com/5p6s0c9.png" alt="Alternate image text" width="400"/>
 
-Seuraava komento jota yritin oli strings passtr, joka vain hakee kaikki strings tiedot ohjelmasta.
+- Seuraava komento jota yritin oli strings passtr, joka vain hakee kaikki strings tiedot ohjelmasta.
 Näiden avulla löysinkin jo salasanan.
+
 <img src="https://i.imgur.com/tvcteaA.png" alt="Alternate image text" width="400"/>
 
-Lopullinen lippu.
+- Lopullinen lippu.
+
 <img src="https://i.imgur.com/FEQRO1p.png" alt="Alternate image text" width="400"/>
 
 ### b) Tee passtr.c -ohjelmasta uusi versio, jossa salasana ei näy suoraan sellaisenaan binääristä. Osoita testillä, että salasana ei näy. (Obfuskointi riittää.)
