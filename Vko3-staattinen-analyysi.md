@@ -49,10 +49,10 @@ Näiden avulla löysinkin jo salasanan.
 
 ### Lähteet/neuvot
 
-  ChatGPT:ltä kysyin:
+  ChatGPT:ltä kysyin:<br>
   "kuinka puran upx lähdekoodi ohjelman linuxilla". Kysyin myös yleisesti kuinka strings toimintoa voi käyttää.
         
-  Yleistä opiskelua strings toiminnoista:
+  Yleistä opiskelua strings toiminnoista:<br>
   https://www.geeksforgeeks.org/strings-in-c/ <br>
   https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/ <br>
   https://phoenixnap.com/kb/grep-command-linux-unix-examples
