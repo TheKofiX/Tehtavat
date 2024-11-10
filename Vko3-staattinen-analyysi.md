@@ -2,9 +2,9 @@
 
 ### a) Strings. Lataa ezbin-challenges.zip Aja 'passtr'. Selvitä oikea salasana 'strings' avulla. Selvitä myös lippu. (Ensisijaisesti katsomatta sorsia, jos osaat.)
 
-      - En ollut ennen käyttänyt C kieltä tai esim. strings komentoa ennen, aloitin tämän takia opettelmalla ja tutkimalla kuinka se toimii.
-      - Tämän jälkeen aloitin tutkimaan kuinka näitä komentoja voisi käyttää salasanan saamiseen.
-      - Ensimmäinen kokeilemani komento oli strings | grep -i "password", joka palautti sattumalta tehtävän lipun, huomasin kuitenkin että tämä ei ollut pyydetty   salasana.
+- En ollut ennen käyttänyt C kieltä tai esim. strings komentoa ennen, aloitin tämän takia opettelmalla ja tutkimalla kuinka se toimii.
+- Tämän jälkeen aloitin tutkimaan kuinka näitä komentoja voisi käyttää salasanan saamiseen.
+- Ensimmäinen kokeilemani komento oli strings | grep -i "password", joka palautti sattumalta tehtävän lipun, huomasin kuitenkin että tämä ei ollut pyydetty   salasana.
 <img src="https://i.imgur.com/5p6s0c9.png" alt="Alternate image text" width="400"/>
 
 Seuraava komento jota yritin oli strings passtr, joka vain hakee kaikki strings tiedot ohjelmasta.
